@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:id="@+id/tv_progress1"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp" />
+
+        <czb.com.seekbarlib.RangeSeekBar
+            android:id="@+id/rangeSeekBar1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:rsb_main_color="#ff0000"
+            app:rsb_max="200"
+            app:rsb_mode="doubleBar"
+            app:rsb_progress="50"
+            app:rsb_radius="30"
+            app:rsb_center_indicator="true"
+            app:rsb_thumb="@drawable/seekbar_thumb_selector"
+            app:rsb_vice_color="#aa888888" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:id="@+id/tv_progress2"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp" />
+
+        <czb.com.seekbarlib.RangeSeekBar
+            android:id="@+id/rangeSeekBar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:rsb_main_color="#ff00d9"
+            app:rsb_max="100"
+            app:rsb_mode="singleBar"
+            app:rsb_progress="20"
+            app:rsb_radius="30"
+            app:rsb_thumb="@drawable/seekbar_thumb_selector"
+            app:rsb_vice_color="#aa888888" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+
+        <czb.com.seekbarlib.RangeSeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            app:rsb_bg_res="@drawable/seekbar_bg_shape"
+            app:rsb_main_color="#ff0000"
+            app:rsb_max="200"
+            app:rsb_mode="doubleBar"
+            app:rsb_progress="50"
+            app:rsb_radius="30"
+            app:rsb_thumb="@drawable/seekbar_thumb_selector"
+            app:rsb_vice_color="#aa888888" />
+
+
+        <czb.com.seekbarlib.RangeSeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            app:rsb_main_color="#58d6c5"
+            app:rsb_max="100"
+            app:rsb_mode="singleBar"
+            app:rsb_progress="20"
+            app:rsb_radius="20"
+            app:rsb_thumb="@drawable/tushe"
+            app:rsb_vice_color="#aa888888" />
+
+
+        <czb.com.seekbarlib.RangeSeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:rsb_main_color="#ff00d9"
+            app:rsb_max="100"
+            app:rsb_mode="singleBar"
+            app:rsb_progress="30"
+            app:rsb_radius="50"
+            app:rsb_stroke_width="20dp"
+            app:rsb_thumb="@drawable/seekbar_thumb_selector"
+            app:rsb_vice_color="#aa888888" />
+    </LinearLayout>
+</LinearLayout>
