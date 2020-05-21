@@ -27,12 +27,12 @@
             android:id="@+id/rangeSeekBar1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            app:rsb_center_indicator="true"
             app:rsb_main_color="#ff0000"
             app:rsb_max="200"
             app:rsb_mode="doubleBar"
             app:rsb_progress="50"
             app:rsb_radius="30"
-            app:rsb_center_indicator="true"
             app:rsb_thumb="@drawable/seekbar_thumb_selector"
             app:rsb_vice_color="#aa888888" />
 
@@ -114,5 +114,15 @@
             app:rsb_stroke_width="20dp"
             app:rsb_thumb="@drawable/seekbar_thumb_selector"
             app:rsb_vice_color="#aa888888" />
+
+        <czb.com.seekbarlib.RangeSeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:rsb_main_color="#ff00d9"
+            app:rsb_max="100"
+            app:rsb_mode="singleBar"
+            app:rsb_progress="30"
+            app:rsb_vice_color="#aa888888" />
+
     </LinearLayout>
 </LinearLayout>

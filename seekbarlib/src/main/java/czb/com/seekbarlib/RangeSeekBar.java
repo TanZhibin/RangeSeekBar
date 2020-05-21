@@ -25,8 +25,8 @@ public class RangeSeekBar extends View {
      * 宽高属性
      */
     private int DEFAULT_WIDTH = 400;
-    private int DEFAULT_HEIGHT = 30;
-    private final int DEFAULT_RADIUS = 30;
+    private int DEFAULT_HEIGHT = 40;
+    private final int DEFAULT_RADIUS = 15;
 
 
     private int viewWidth;
